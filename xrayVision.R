@@ -17,7 +17,7 @@ target_directory$Pleural_Thickening = 3
 target_directory$Fibrosis = 3
 target_directory$Edema = 3
 
-
+#
 
 for (i in 1:nrow(target_directory)){
   if(target_directory$Finding.Labels[i] == "No Finding")
